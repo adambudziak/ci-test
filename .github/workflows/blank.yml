@@ -29,5 +29,6 @@ jobs:
       - name: Run a one-line script
         run: | 
           chmod +x ./test.sh
+          cat ./test.sh
           ./test.sh
         shell: bash
